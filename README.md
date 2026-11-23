@@ -10,12 +10,14 @@ that make a paper sound generated, inflated or evasive.
 
 ## What it does
 
+- **No style announcements.** Do not write phrases such as "in plain terms", "simply put", "in brief", "to be clear" or "the point is". Follow the rules silently; the text should show the style, not label it.
+
 - **Pass 1** removes research-writing tells: not-X-but-Y, one-line closers, inflated significance,
   stock AI words, hidden actors, stacked hedges, process narrative and self-assessment.
 - **Pass 2** rebuilds paragraphs around one claim and its evidence, defines terms for a reader who
   does not know serverless, and enforces the VOSS vocabulary.
 
-The full instructions are in [`SKILL.md`](SKILL.md).
+The full instructions are in the compact [`SKILL.md`](SKILL.md). The author-specific heuristic list is optional in `references/voss-heuristics.md`.
 
 ## Use it
 

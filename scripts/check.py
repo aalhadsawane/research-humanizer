@@ -87,6 +87,10 @@ RULES: tuple[Rule, ...] = (
          "cut the absent objection"),
     Rule("A19", r"\b(?:that is|that's) the (?:real|key) (?:challenge|win|point)\b", "cut the closer"),
     Rule("A20", r"\b(?:great|excellent) question\b|\bi hope this helps\b|\blet me know\b", "remove chatbot residue"),
+    Rule("A21", r"\b(?:in plain (?:terms|english)|plainly|simply put|to put it simply|put simply|in simple terms|the simple version|the short version|in short|in brief|explained simply|as simple as it gets|without jargon|in other words|to be clear|the point is|let me explain|for clarity|what this means is|this means that|at its core|in essence|basically)\b",
+         "state the fact; do not announce that the text is clear or simple"),
+    Rule("A22", r"\bthis (?:section|paper) (?:explains|describes|shows|introduces)\b|\bin this (?:section|paper),? we\b",
+         "start with the claim; the heading already says what the section is"),
 
     # Word-level defaults.
     Rule("W01", r"\bin order to\b", "to"),
