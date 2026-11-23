@@ -225,6 +225,12 @@ python scripts/check.py manuscript/sections/intro.tex
 python scripts/check.py manuscript/sections/*.tex
 ```
 
+## 8a. VOSS heuristics
+
+`references/voss-heuristics.md` condenses the author's 30 feedback heuristics and the approved opening
+sequence. Use it as a second checklist after §4. If a rule here and a rule there seem to conflict, the
+more specific VOSS writing specification wins.
+
 ## 9. Fidelity rules
 
 - **Keep every fact, number, name, date and citation.** If a fact does not fit the style, change the

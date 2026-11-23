@@ -36,6 +36,7 @@ title or a term the paper defines. Read the line; fix what is real.
 | File | Purpose |
 |---|---|
 | `SKILL.md` | The skill: reader, process, Pass 1 tells, Pass 2 rules, VOSS vocabulary, cold-reader questions, examples, fidelity rules, finish checklist. |
+| `references/voss-heuristics.md` | The author's 30 feedback heuristics, the approved opening sequence and the "three things" paragraph. |
 | `scripts/check.py` | Dependency-free heuristic checker for `.tex` and `.md`. |
 
 ## Scope
